@@ -3,6 +3,7 @@
 2. 获取较为完整的用户信息，并保存下来
 3. Plus：每个用户使用单独保存一个 txt 文件，并且保存运势数据
 4. list>>>dict
+5. Plus：把全部代码改写成函数「能改写就改写」
 """
 # --------user inpit---------
 username = input("请输入你的名字：")
@@ -13,7 +14,7 @@ ages = input("请输入您的年龄(18~75):")
 # ages = int(age)
 time = input("请输入您的生辰是(白天/晚上):")
 
-with open("yunshi.txt", "a+", encoding="utf-8")as fp:
+with open("data/yunshi.txt", "a+", encoding="utf-8")as fp:
     fp.write(str(
         {
         "username": username, 
