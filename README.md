@@ -1,5 +1,5 @@
 # Student_homework
-私教学员代码作业仓库，使用 GitHub，gitee 主要是为了方便阅读。
+私教学员代码作业仓库，使用 GitHub，Gitee 主要是为了方便阅读。
 
 Gitee：[https://gitee.com/huangjiabaoaiyc/Student_homework](https://gitee.com/huangjiabaoaiyc/Student_homework)
 
