@@ -1,5 +1,5 @@
 # Student_homework
-私教学员代码作业仓库，使用 GitHub，Gitee 主要是为了方便阅读。
+学员代码作业仓库，使用 GitHub，Gitee 主要是为了方便阅读。
 
 Gitee：[https://gitee.com/huangjiabaoaiyc/Student_homework](https://gitee.com/huangjiabaoaiyc/Student_homework)
 
@@ -153,3 +153,10 @@ git remote -v
 > **gitlog--oneline --graph --decorate --all**
 >
 > 来查看更新的情况，再决定是否 **merge（整合）**到一起。
+
+
+
+# 5. 交作业方法
+
+接下来，我拿朋友的 GitHub 账号来完整操作一遍。
+
