@@ -1,5 +1,11 @@
 # Student_homework
-私教学员代码作业
+私教学员代码作业仓库，使用 GitHub，gitee 主要是为了方便阅读。
+
+Gitee：[https://gitee.com/huangjiabaoaiyc/Student_homework](https://gitee.com/huangjiabaoaiyc/Student_homework)
+
+Github：[https://github.com/AndersonHJB/Student_homework](https://github.com/AndersonHJB/Student_homework)
+
+
 
 # 1. 首先 Fork 他人的 repository（代码仓库）
 
