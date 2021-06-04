@@ -138,15 +138,15 @@ git remote -v
 >
 > **（3）将最新版本整合到本地 master 分支上**
 >
-> **git merge upstream/master**
+> **git merge upstream/main**
 >
 > **（4）将更新发送到自己的 GitHub 仓库里**
 >
-> **git push origin master**
+> **git push origin main**
 
 > （1）（2）（3）步可以用
 >
-> **git pull upstream master**
+> **git pull upstream main**
 >
 > 这条命令替代，可以这样不太安全，因为你 **fetch（获取）**之后可以通过
 >
