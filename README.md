@@ -116,21 +116,34 @@ git remote -v
 
 查看有无成功添加。
 
-> > 还差一点就大功告成了
-> >
-> > **（1）从原仓库获取最新版本到本地**
-> >
-> > ***git fetch upstream master***
-> >
-> > **（2）保证当前位于 master 分支上**
-> >
-> > **git checkout master**
-> >
-> > **（3）将最新版本整合到本地 master 分支上**
-> >
-> > **git merge upstream/master**
-> >
-> > **（4）将更新发送到自己的 GitHub 仓库里**
-> >
-> > **git push origin master**
+我用别的仓库演示：
 
+![image-20210604142916960](README.assets/image-20210604142916960.png)
+
+> 还差一点就大功告成了
+>
+> **（1）从原仓库获取最新版本到本地**
+>
+> **git fetch upstream master**
+>
+> **（2）保证当前位于 master 分支上**
+>
+> **git checkout master**
+>
+> **（3）将最新版本整合到本地 master 分支上**
+>
+> **git merge upstream/master**
+>
+> **（4）将更新发送到自己的 GitHub 仓库里**
+>
+> **git push origin master**
+
+> （1）（2）（3）步可以用
+>
+> **git pull upstream master**
+>
+> 这条命令替代，可以这样不太安全，因为你 **fetch（获取）**之后可以通过
+>
+> **gitlog--oneline --graph --decorate --all**
+>
+> 来查看更新的情况，再决定是否 **merge（整合）**到一起。
