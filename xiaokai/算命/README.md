@@ -8,3 +8,4 @@
 
 1. Python 中的文件基本操作合集 with open~：[https://mp.weixin.qq.com/s/ExNmraka-VFjKudfetDmXw](https://mp.weixin.qq.com/s/ExNmraka-VFjKudfetDmXw)
 2. Markdown 教程：[https://www.runoob.com/markdown/md-tutorial.html](https://www.runoob.com/markdown/md-tutorial.html)
+3. typora：[https://typora.io/](https://typora.io/)
