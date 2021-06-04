@@ -160,3 +160,11 @@ git remote -v
 
 接下来，我拿朋友的 GitHub 账号来完整操作一遍。
 
+![image-20210604145405287](README.assets/image-20210604145405287.png)
+
+![image-20210604145430484](README.assets/image-20210604145430484.png)
+
+![image-20210604145504677](README.assets/image-20210604145504677.png)
+
+![image-20210604150252660](README.assets/image-20210604150252660.png)
+
