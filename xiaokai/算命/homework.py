@@ -1,15 +1,38 @@
+"""
+1. 代码多，代码多不是问题「简洁」
+2. 获取较为完整的用户信息，并保存下来
+3. Plus：每个用户使用单独保存一个 txt 文件，并且保存运势数据
+4. list>>>dict
+"""
+# --------user inpit---------
+username = input("请输入你的名字：")
 gender = input("请输入您的性别（男/女)：")
-age = input("请输入您的年龄(18~75):")
-ages = int(age)
+
+# ages = int(input("请输入您的年龄(18~75):"))
+ages = input("请输入您的年龄(18~75):")
+# ages = int(age)
 time = input("请输入您的生辰是(白天/晚上):")
 
-a = range(18, 26)
+with open("yunshi.txt", "a+", encoding="utf-8")as fp:
+    fp.write(str(
+        {
+        "username": username, 
+        "gender": gender,
+        "age": ages,
+        "time": time
+        }
+        ) + "\n\n")
+
+
+# --------range area---------
+a = list(range(18, 26))
 b = range(26, 36)
 c = range(36, 46)
 d = range(46, 56)
 e = range(56, 66)
 f = range(66, 76)
 
+# --------data area---------
 user_gender = ('男', '女')
 user_time = ('白天', '晚上')
 
@@ -113,10 +136,11 @@ user_key = (rg, gender, time)
 for new in ku:
     if user_key == new:
         yu_ce = ku.get(new)
+        print(f"尊敬的用户您好！为您预测的运势结果如下：'{yu_ce}'")
         break
 
 
 
 print("\t***你今年的运势***")
 
-print(f"尊敬的用户您好！为您预测的运势结果如下：'{yu_ce}'")
+
