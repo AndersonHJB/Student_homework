@@ -26,7 +26,7 @@ with open("data/yunshi.txt", "a+", encoding="utf-8")as fp:
 
 
 # --------range area---------
-a = list(range(18, 26))
+a = range(18, 26)
 b = range(26, 36)
 c = range(36, 46)
 d = range(46, 56)
@@ -118,30 +118,35 @@ ku = {M1_day: M1,
       F5_night: F5s,
       F6_night: F6s
       }
+with open("data/data.txt", "a+", encoding="utf-8")as fp:
+    fp.write(str(ku))
+# if gender in user_gender:
+#     pass
+# if time in user_time:
+#     pass
 
-age_g = (a, b, c, d, e, f)
+# age_g = (a, b, c, d, e, f)
 
-if ages in range(18, 76):
-    for rg in age_g:
-        if ages in rg:
-            pass
-            break
-
-if gender in user_gender:
-    pass
-if time in user_time:
-    pass
-
-user_key = (rg, gender, time)
-
-for new in ku:
-    if user_key == new:
-        yu_ce = ku.get(new)
-        print(f"尊敬的用户您好！为您预测的运势结果如下：'{yu_ce}'")
-        break
+# user_key = [time, gender]
+# if ages in range(18, 76):
+#     for rg in age_g:
+#         if ages in rg:
+#             user_key.append(rg)
+#             pass
+#             break
 
 
 
-print("\t***你今年的运势***")
+# # user_key = (rg, gender, time)
+
+# for new in ku:
+#     if user_key[::-1] == new:
+#         yu_ce = ku.get(new)
+#         print(f"尊敬的用户您好！为您预测的运势结果如下：'{yu_ce}'")
+#         break
+
+
+
+# print("\t***你今年的运势***")
 
 
