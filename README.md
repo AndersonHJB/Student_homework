@@ -178,3 +178,21 @@ git remote -v
 
 ![image-20210604150619229](README.assets/image-20210604150619229.png)
 
+接下来，使用如下命令持续操作：
+
+```sh
+sh aiyc_code_push.sh
+```
+
+> 要在当前路径下执行哦！！！
+
+![image-20210604150859194](README.assets/image-20210604150859194.png)
+
+出现如下操作：
+
+![image-20210604151012694](README.assets/image-20210604151012694.png)
+
+我们去我们的 GitHub 上面，并刷新看看：
+
+![image-20210604151100237](README.assets/image-20210604151100237.png)
+
