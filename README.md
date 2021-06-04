@@ -130,11 +130,11 @@ git remote -v
 >
 > **（1）从原仓库获取最新版本到本地**
 >
-> **git fetch upstream master**
+> **git fetch upstream main**
 >
-> **（2）保证当前位于 master 分支上**
+> **（2）保证当前位于 main 分支上**
 >
-> **git checkout master**
+> **git checkout main**
 >
 > **（3）将最新版本整合到本地 master 分支上**
 >
@@ -212,7 +212,7 @@ sh aiyc_code_push.sh
 
 这样就等于提交了，之后提醒我去同意即可。
 
-
+![image-20210604153049022](README.assets/image-20210604153049022.png)
 
 
 
