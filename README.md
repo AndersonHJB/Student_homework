@@ -168,3 +168,13 @@ git remote -v
 
 ![image-20210604150252660](README.assets/image-20210604150252660.png)
 
+我们桌面就有了这个文件夹了：
+
+![image-20210604150438808](README.assets/image-20210604150438808.png)
+
+接下来，我把我的一张照片放到仓库里面：
+
+![image-20210604150542772](README.assets/image-20210604150542772.png)
+
+![image-20210604150619229](README.assets/image-20210604150619229.png)
+
