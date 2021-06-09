@@ -10,5 +10,5 @@ def add_sum(a, b):
 	print(sum1)
 	return sum1
 
-
-print(add_sum(1, 2))
+if __name__ == '__main__':
+	print(add_sum(1, 2))
