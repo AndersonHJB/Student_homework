@@ -43,8 +43,8 @@ class Creature():
 player:玩家
 enemy:敌人
 """
-player = Creature()
-enemy = Creature()
+player = Creature(100)
+enemy = Creature(80)
 
 while player.not_dead() and enemy.not_dead():
 	player.show_status()
