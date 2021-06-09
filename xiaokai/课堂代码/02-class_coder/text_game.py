@@ -14,9 +14,10 @@
 import random
 
 
-class Creature():
-	def __init__(self, hp):
+class Creature(object):
+	def __init__(self, hp, name):
 		self.hp = hp
+		self.name = name
 		
 	def attack(self):
 		"""
@@ -30,21 +31,22 @@ class Creature():
 		if self.hp <= 0:
 			return False
 		else:
-			return
+			return True
 	
 	def being_attack(self, attack_value):
 		self.hp -= attack_value
 	
 	def show_status(self):
-		print(self.hp)
+		# print(self.hp)
+		print("{}' hp is {}.".format(self.name, self.hp))
 		
 	
 """
 player:玩家
 enemy:敌人
 """
-player = Creature(100)
-enemy = Creature(80)
+player = Creature(100, "AI悦创")
+enemy = Creature(80, "Enemy")
 
 while player.not_dead() and enemy.not_dead():
 	player.show_status()
@@ -60,3 +62,8 @@ while player.not_dead() and enemy.not_dead():
 	elif user_input == "D":
 		enemy_attack_value = enemy.attack()*0.1
 		player.being_attack(enemy_attack_value)
+
+if player.not_dead():
+	print("You Win!")
+else:
+	print("You Lose!")
