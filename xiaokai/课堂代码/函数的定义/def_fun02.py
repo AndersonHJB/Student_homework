@@ -7,7 +7,13 @@
 # @公众号   ：AI悦创
 
 def HelloUser(username=None, age=None):
-	print("hello {}, age: {}".format(username, age))
+	result = "hello {}, age: {}".format(username, age)
+	# print(result)
+	return result
 
+a = HelloUser(age=18, username="aiyc")
+print(a)
 
-HelloUser(age=18, username="aiyc")
+str1 = "aiyc"
+a = str1.replace("a", "lll")
+# print(a)
