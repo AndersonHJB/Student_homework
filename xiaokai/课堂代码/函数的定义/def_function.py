@@ -5,8 +5,6 @@
 # @Software: PyCharm
 # @Blog    ：http://www.aiyc.top
 # @公众号   ：AI悦创
-
-
 def HelloUser(username="aiyc", age=18):
 	print("hello {}, age: {}".format(username, age))
 # 动态语言
