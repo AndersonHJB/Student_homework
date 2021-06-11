@@ -53,4 +53,18 @@ sh aiyc_code_push.sh
 sh aiyc_code_push.sh
 ```
 
+
+
+## 6. 课程回放
+
+[https://www.aiyc.top/courses/liyueran](https://www.aiyc.top/courses/liyueran)
+
+
+
+
+
+## 7. 51CTO 课程加入
+
+[https://edu.51cto.com/lecturer/13952552.html](https://edu.51cto.com/lecturer/13952552.html)
+
 ![公众号：AI悦创](README.assets/公众号：AI悦创.jpg)
