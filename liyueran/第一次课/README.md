@@ -67,4 +67,10 @@ sh aiyc_code_push.sh
 
 [https://edu.51cto.com/lecturer/13952552.html](https://edu.51cto.com/lecturer/13952552.html)
 
+
+
+## 8. 看文章
+
+为什么我们要学习编程？：https://www.aiyc.top/731.html
+
 ![公众号：AI悦创](README.assets/公众号：AI悦创.jpg)
