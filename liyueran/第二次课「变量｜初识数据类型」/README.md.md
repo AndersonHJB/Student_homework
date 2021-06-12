@@ -47,3 +47,13 @@ print("这是 name2 的 Value：", name2)
 | set    | 确定性、互异性、无序性                                       |
 | dict   |                                                              |
 
+
+
+## 练习
+
+1. 章节测试一「Python-变量和数据类型」：[https://www.aiyc.top/581.html](https://www.aiyc.top/581.html)
+2. 今天的咱们一起敲的代码，复习一遍。
+3. 有问题马上问。
+
+![公众号：AI悦创](README.md.assets/公众号：AI悦创.jpg)
+
