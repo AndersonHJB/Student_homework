@@ -5,6 +5,11 @@
 # @Software: PyCharm
 # @Blog    ：http://www.aiyc.top
 # @公众号   ：AI悦创
-x = 1
-x = x + 10
-print(x)
+# 代码洁癖
+#
+# x = 1
+# x = x + 10
+# print(x)
+name1 = 'lilei'
+name2 = name1
+print(name2)
