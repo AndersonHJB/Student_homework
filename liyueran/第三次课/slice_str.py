@@ -24,3 +24,4 @@ print(str_name[:6])
 # aiyuechuang
 # a y e h a g
 print(str_name[::2])
+print(str_name[::-1])
