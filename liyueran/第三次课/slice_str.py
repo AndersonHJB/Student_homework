@@ -26,3 +26,8 @@ print(str_name[:6])
 print(str_name[::2])
 print(str_name[::-1])
 # str_name.replace()
+
+str_1 = R"ssdefdefef\ndwedwfwfw"
+print(str_1)
+
+
