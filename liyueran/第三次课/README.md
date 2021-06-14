@@ -36,3 +36,30 @@
 
 1. find：只会放回第一个出现的位置
 2. 
+
+
+
+### 4. Input 得到的数据类型都是 str
+
+```python
+In [72]: type(input())
+1
+Out[72]: str
+
+In [73]: type(input())
+[1, 2, 3, 4]
+Out[73]: str
+
+In [74]: type(input())
+(1, 2, 3)
+Out[74]: str
+
+In [75]: type(input())
+{1:2, 4:2}
+Out[75]: str
+
+In [76]: type(input())
+{1, 2, 3, 4}
+Out[76]: str
+```
+
