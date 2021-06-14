@@ -16,3 +16,6 @@ str_text = '''
 '''
 print(str_text)
 # \n = new line
+print(len(str_text))
+
+# len = length
