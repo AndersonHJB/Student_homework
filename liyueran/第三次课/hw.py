@@ -1,5 +1,5 @@
 # ---------- input area ----------
-name_input = input("Please input input name:>>>")
+name_input = input("Please input your name:>>>")
 # username/user_name/username_input
 gender_input = input("please input your gender:>>>")
 age_input = input("please input your age:>>>")
