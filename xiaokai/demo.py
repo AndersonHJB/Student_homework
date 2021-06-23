@@ -6,3 +6,16 @@
 # @Blog    ：http://www.aiyc.top
 # @公众号   ：AI悦创
 # 统计词频
+with open("i_have_a_dream.txt", "r", encoding="utf-8") as f:
+	lines = f.readlines()
+	# print(lines)
+	for line in lines:
+		line = line.replace(",", " ")
+		line = line.replace(".", " ")
+		line = line.replace("?", " ")
+		line = line.replace("!", " ")
+		line = line.replace(":", " ")
+		line = line.replace("\n", " ")
+		line = line.replace("", " ")
+		# print(words)
+		
