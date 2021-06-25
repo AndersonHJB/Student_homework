@@ -5,3 +5,14 @@
 # @Software: PyCharm
 # @Blog    ：http://www.aiyc.top
 # @公众号   ：AI悦创
+# a = 1
+#
+#
+# def Hello():
+# 	print(a)
+# 	a = 100
+#
+#
+# print(a)
+# Hello()
+#
