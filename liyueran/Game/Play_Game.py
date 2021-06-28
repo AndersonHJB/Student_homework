@@ -8,6 +8,7 @@
 # import random
 from random import randint
 
+
 class Creature():
 	def __init__(self, hp, username):
 		self.hp = hp
@@ -29,7 +30,7 @@ class Creature():
 	def show_status(self):
 		# print(self.hp)
 		print("{}' hp is {}.".format(self.username, self.hp))
-
+# 匿名函数
 
 player = Creature(100, "AI悦创")
 enemy = Creature(80, "Enemy")
@@ -45,11 +46,10 @@ while player.not_dead() and enemy.not_dead():
 		
 		enemy.being_attack(player_attack_value)
 		player.being_attack(enemy_attack_value)
-		
+	
 	elif user_input == "D":
-		enemy_attack_value = enemy.attack()*0.1
+		enemy_attack_value = enemy.attack() * 0.1
 		player.being_attack(enemy_attack_value)
-		
 
 if player.not_dead():
 	print("You win.")
